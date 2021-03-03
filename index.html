@@ -103,7 +103,7 @@ for (let o in root) {
     datX.push(root[o].created);
     datY.push(root[o].quality);
     datL.push(root[o].name);
-    ocean.add({label: root[o].name, value_:root[o].quality, _created_: root[o].created});
+    ocean.add({label: root[o].name, value_: root[o].quality, _created: root[o].created});
 }  
 ocean.rescale(document.querySelector('#scale').innerHTML);
 dat.columns[0] = datX;
@@ -161,7 +161,7 @@ $( "#slider-range" ).slider({
 
     ocean.removeAll();
     for (var i = 0; i<newY.length; i++) {
-        ocean.add({label: newL[i], value_:newY[i], _created_:newX[i]});
+        ocean.add({label: newL[i], value_: newY[i], _created: newX[i]});
     } 
     ocean.rescale(document.querySelector('#scale').innerHTML);
     //Display Min and Max
