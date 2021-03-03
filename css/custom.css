@@ -1,0 +1,68 @@
+.c3-axis-y {
+  display: none;
+}
+
+#chart {
+  margin-right: 10px;
+}
+
+.gui {
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+#nav {
+  height:auto;
+  overflow:hidden;
+  position:absolute;
+  left:0;
+  right:0;
+}
+
+#check {
+	display:none;
+}
+#menubtt label i{
+  font-size: 60px;
+  position:absolute;
+  z-index: 1000;
+  top:  -4px;
+  left: -4px;
+}
+/* Console */
+.console {
+	background-color: #000;
+	color: #0c0;
+	height:10em;
+	overflow-y: scroll;
+	display: none;
+}
+#clc {
+	background-color:#ccf;
+}
+#clc:hover {
+	background-color:#bbf;
+}
+#clc:active {
+	background-color:#ddf;
+}
+/*responsiveness*/
+#nav td{
+  font-size:0.66vw;
+  padding:0.625vw 0.9375vw;
+}
+#nav td:nth-child(1), #nav td:nth-child(3){
+  width:20%;
+}
+#nav td:nth-child(2){
+  width:60%;
+}
+@media screen and (max-width:1920px){
+  #nav td{
+    font-size:13px;
+  }
+}

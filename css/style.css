@@ -1,0 +1,18 @@
+.bar {
+	display: inline-block;
+ 	width: 3.3%;
+ 	height: 75px;
+	background-color: white;
+	margin-right: 2px;
+	align-self: flex-end;
+}
+
+#visualisation {
+	height: 400px;
+	 display: flex;
+
+}
+
+body {
+	background-color: #fff;
+}
