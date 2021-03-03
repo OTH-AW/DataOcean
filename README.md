@@ -41,5 +41,5 @@ Part of project 4 of ISAC@OTH-AW Industry Software Application Center, see docum
 
 [Homepage](https://www.isac-oth.de/) | [Contact](mailto:isac-kontakt@oth-aw.de)
 
-![ISAC@OTH-AW](isac.png)
+ISAC@OTH-AW
 
